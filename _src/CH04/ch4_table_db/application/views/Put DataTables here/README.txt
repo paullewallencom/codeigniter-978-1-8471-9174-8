@@ -1,0 +1,1 @@
+Download DataTables from this URL:  http://datatables.net/download/ and place in the containing folder 'Put DataTables here'.  Remember to rename 'Put DataTables here' to something more sensible like 'DataTables' and ensure that you reflect this in the code.

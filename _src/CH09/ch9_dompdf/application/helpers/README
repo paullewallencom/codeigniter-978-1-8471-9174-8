@@ -1,0 +1,5 @@
+This is where to install DOMPDF.  Here is an extract from Chapter 9 - Creating PDFs with the DOMPDF Spark which goes through installation:…
+
+As this recipe requires the DOMPDF Spark, we’ll need to install that into our CodeIgniter instance before we do anything else, so...1. Let’s grab the DOMPDF spark from getsparks.org and install it.  Open a terminal window and navigate to your CodeIgniter application directory and type:php tools/spark install dompdfThat will download the dompdf Spark. The dompdf Spark may have downloaded but you’ll need to do some installation to get it going.  In the folder /path/to/codeigniter/sparks/dompdf/[version-number]/helpers (where [version-number] is the version of the Spark) is a folder and a file:
+ a. /path/to/codeigniter/sparks/dompdf/0.5.3/helpers/dompdf/ b. /path/to/codeigniter/sparks/dompdf/0.5.3/helpers/dompdf_helper.php
+2. Copy this folder and file into the ‘helpers’ folder of your CodeIgniter application (/path/to/codeigniter/application/helpers).
